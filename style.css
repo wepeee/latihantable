@@ -11,11 +11,14 @@ body {
   height: 100vh;
   flex-wrap: wrap;
   flex-direction: column;
+  width: 100%;
+  overflow: hidden;
 }
 .container {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 table,
 td,
@@ -26,6 +29,12 @@ th {
 table {
   margin: auto;
   text-align: center;
+}
+
+.left,
+.right {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 li {
